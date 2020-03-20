@@ -47,4 +47,11 @@ The birds began to sing \n\
 Wasn't that a dainty dish \n\
 To set before the king?"
 
-print(song)
+#print(song)
+
+f = open("sixpence.txt", "r")
+
+for line in f:
+    print(line.strip())
+
+f.close()
