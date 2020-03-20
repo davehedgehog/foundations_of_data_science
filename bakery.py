@@ -34,3 +34,17 @@ days = 7
 pie_sales = 6
 profit = (pie_price-pie_cost)*days*pie_sales
 print("Pie profit = {0:.2f}.".format(profit))
+
+
+
+song = "\
+Sing a song Of sixpence \n\
+A pocket full of rye \n\
+Four and twenty blackbirds \n\
+Baked in a pie.\n\
+When the pie was opened \n\
+The birds began to sing \n\
+Wasn't that a dainty dish \n\
+To set before the king?"
+
+print(song)
